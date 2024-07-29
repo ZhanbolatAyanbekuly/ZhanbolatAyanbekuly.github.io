@@ -1,0 +1,10 @@
+body{ background-color: #ffffff;}
+.image 
+{ 
+    display:flex ;
+    
+    width: 500;
+    height: 400;
+    margin-left: auto;
+    margin: 100px;
+}
