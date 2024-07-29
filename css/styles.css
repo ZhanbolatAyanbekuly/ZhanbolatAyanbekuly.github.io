@@ -1,0 +1,46 @@
+/* General Section Styles */
+section {
+     padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+/* Link Styles */
+.black-link {
+     color: black;
+}
+
+.black-link:hover {
+     color: blue;
+}
+
+/* Heading Styles */
+h1 {
+     color: #004A9B;
+}
+
+
+#learn-more-btn {
+     transition: 0.3s;
+}
+
+#learn-more-btn:hover {
+     position: absolute;
+     background-color: #ee4444;
+     color: #fff;
+     transform: scale(150%);
+     transition: 0.3s;
+}
+
+.nav-icon {
+     transition: 0.3s;
+}
+
+
+#mail-text:hover {
+     text-decoration: underline;
+}
+
+.swiper {
+     width: 70%;
+     height: 600px;
+}

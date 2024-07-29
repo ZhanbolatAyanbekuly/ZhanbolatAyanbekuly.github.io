@@ -1,0 +1,10 @@
+/* Font Styles */
+@font-face {
+     font-family: "Gotham Pro";
+     src: url("https://db.onlinewebfonts.com/t/07a38bbad54db72a40b406bed1c72f53.eot");
+     src: url("https://db.onlinewebfonts.com/t/07a38bbad54db72a40b406bed1c72f53.eot?#iefix") format("embedded-opentype"),
+          url("https://db.onlinewebfonts.com/t/07a38bbad54db72a40b406bed1c72f53.woff2") format("woff2"),
+          url("https://db.onlinewebfonts.com/t/07a38bbad54db72a40b406bed1c72f53.woff") format("woff"),
+          url("https://db.onlinewebfonts.com/t/07a38bbad54db72a40b406bed1c72f53.ttf") format("truetype"),
+          url("https://db.onlinewebfonts.com/t/07a38bbad54db72a40b406bed1c72f53.svg#Gotham Pro Regular") format("svg");
+}
