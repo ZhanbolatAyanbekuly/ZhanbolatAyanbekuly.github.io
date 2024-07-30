@@ -7,28 +7,17 @@ section {
 /* Link Styles */
 .black-link {
      color: black;
+     padding: 4px 10px;
+     text-decoration: none;
 }
 
 .black-link:hover {
-     color: blue;
+     color: green;
 }
 
 /* Heading Styles */
 h1 {
      color: #004A9B;
-}
-
-
-#learn-more-btn {
-     transition: 0.3s;
-}
-
-#learn-more-btn:hover {
-     position: absolute;
-     background-color: #ee4444;
-     color: #fff;
-     transform: scale(150%);
-     transition: 0.3s;
 }
 
 .nav-icon {

@@ -4,7 +4,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="icon" type="image/x-icon" href="pictures\free-icon-disinfection-3273708.png">
+     <link rel="icon" type="image/x-icon" href="pictures\loge.png">
      <!-- CSS files -->
      <link rel="stylesheet" href="css/admin.css">
      <link rel="stylesheet" href="css/countdown.css">
@@ -19,6 +19,10 @@
      <link rel="stylesheet" href="css/styles.css">
      <link rel="stylesheet" href="css/news.css">
      <link rel="stylesheet" href="css/swiper.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
      <!-- AOS -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <!-- Bootstrap CSS -->
@@ -30,8 +34,6 @@
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <!-- Swiper JS -->
      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
      <title>ULIKE</title>
 </head>
 
@@ -50,82 +52,59 @@
      <script src="js/quiz.js"></script>
      <!-- Bootstrap JS -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-     </script>
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"></script>
      <script>
           AOS.init();
      </script>
 
 
+
      <div class="container-fluid">
           <header class="row d-flex">
-               <nav class="navbar navbar-expand-lg navbar-light bg-white">
+               <nav class="navbar navbar-expand-lg navbar-dark bg-white">
                     <div class="container">
-
-                         <div class="col-md-2">
-                              <a class="navbar-brand" href="#">
-                                   <img src="pictures\free-icon-disinfection-3273708.png" alt="logo" width="65" height="65">
-                              </a>
-                         </div>
+                         <!--иконка  -->
+                         <a class="navbar-brand" href="index.html">
+                              <img src="pictures/loge.png" alt="logo" id="logo" alt="index.html">
+                         </a>
 
                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                               aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                          </button>
-
-                         <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav">
-
-                                   <li class="nav-item col-2 col-md-2 mt-3">
-                                        <a class="text-decoration-none black-link" href="#section2">О компании</a>
-                                   </li>
-
-                                   <li class="nav-item col-2 col-md-2 mt-3">
-                                        <a class="text-decoration-none black-link" href="#section3"> Информация</a>
-                                   </li>
-
-                                   <li class="nav-item col-2 px-2 col-md-2 mt-3">
-                                        <a class="text-decoration-none black-link" href="#section5">Заказ услуг</a>
-                                   </li>
-
-                                   <li class="nav-item col-2 col-md-2 mt-3">
-                                        <a class="text-decoration-none black-link" href="#footer">Контакты</a>
-                                   </li>
-
-                                   <div class="col-6 col-md-2 d-flex gap-2" style="margin-top: 5px;">
-
-                                        <li class="nav-item nav-icon">
-                                             <a href="wa.me/+77768880098" target="_blank">
-                                                  <img class="mt-2 hav-icon" src="pictures/whatsup.png"
-                                                       alt="whats`up-icon" width="32" height="32">
-                                             </a>
-                                        </li>
-
-                                        <li class="nav-item nav-icon">
-                                             <a href="https://web.telegram.org/k/" target="_blank">
-                                                  <img class="mt-2" src="pictures/telegram.png" alt="telegram-icon"
-                                                       width="32" height="32">
-                                             </a>
-                                        </li>
-                                   </div>
-
-                                   <li class="nav-item col-6 col-md-3" style="margin-top: 5px;">
-                                        <p class="text-secondary m-0">Наша почта: </p>
-                                        <a class="text-decoration-none" href="https://e.mail.ru/inbox/1:7eed663c36d1925a:0/" target="_blank">
-                                             <p id="mail-text" class="text-primary m-0">aldiyar_bolatov@bk.ru</p>
-                                        </a>
-                                   </li>
-
-                              </ul>
+                         
+                         <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
                               
-                         </div> 
+                              <ul class="navbar-nav mx-auto">
+                                   <li class="nav-item">
+                                        <a class="black-link" href="#section2">Компания туралы</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="black-link" href="page-2.html">Тапсырыс беру</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="black-link" href="Quiz.html">Quiz</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="black-link" href="#footer">Байланыс</a>
+                                   </li>
+                              </ul>
+
+                              <div class="navbar-text d-none d-lg-block">
+                                   <a href="mailto:info@example.com" class="black-link" style="color: #000;">virus@fighter.com</a>
+                              </div>
+
+                         </div>
                     </div>
                </nav>
           </header>
      </div>
-     
-     <div class="scrollTop" onclick="scrollToTop()" style="z-index: 99;" >Top</div>
+
+
+<!-- button "Жоғары" -->
+     <div class="scrollTop" onclick="scrollToTop()" style="z-index: 99;">Жоғары</div>
 
      <main class="container">
           <section class="mt-5 pt-5">
@@ -133,11 +112,14 @@
                     <div class="row align-items-center">
 
                          <div class="col-md-6" data-aos="fade-right">
-                              <img src="" class="img-fluid" alt="Logo 5">
-                              <h1 class="mt-3" style="color: #004A9B">ULIKE-пен бірге улайық!
-                              </h1>
-                              <p class="text-dark">Сіздің үйіңіз бен кеңсеңіз үшін кәсіби дезинфекция қызметтері! </p>
-                              <button type="button" id="learn-more-btn" class="btn btn-danger mt-3 rounded-pill"
+                              <!-- <img src="pictures/loge.png" class="img-fluid" alt="Logo 5"> -->
+                              <h1 class="mt-3" style="color: #004A9B">ULIKE-пен бірге улайық! </h1>
+                              <p class="fw-bolder text-dark">Сіздің үйіңіз бен кеңсеңіз үшін кәсіби дезинфекция қызметтері! </p>
+                              <p class="text-muted">
+                                   Біздің қызметтеріміз арқылы сіз вирустар мен бактериялардан қорғап, өзіңіз бен
+                                   жақындарыңызды қауіпсіздікпен қамтамасыз етесіз.
+                              </p>
+                              <button type="button" class="btn btn-lg btn-success mt-3 rounded-pill"
                                    onclick="displayAlert()">Толығырақ білу</button>
                          </div>
 
@@ -157,14 +139,16 @@
                          </div>
                          <div class="col-md-6" data-aos="fade-up-left">
                               <h1 class="mb-4 mt-5" style="color: #004A9B;">Біз жайлы не білесіз?</h1>
-                              <br class="text-dark"> Күн сайын <b>ULIKE</b> компаниясы ондаған клиенттерге қызмет көрсетеді, үйде де, кеңседе де кәсіби дезинфекция және сенімді қауіпсіздік қажет. </p>
-                              <p><b>В тоже время:</b></p>
+                              <p class="text-dark">Күн сайын <b>ULIKE</b> компаниясы ондаған клиенттерге қызмет
+                                   көрсетеді, үйде де, кеңседе де кәсіби дезинфекция және сенімді қауіпсіздік қажет.</p>
+                              <p><b>Сонымен қатар:</b></p>
                               <ul class="text-dark" id="ulli">
-                                   <li>Нужной методики лечения или докторов нет в ближайших клиниках</li>
-                                   <li>Ожидание бесплатной помощи может затянуться на месяцы и годы</li>
-                                   <li>Не все пациенты могут позволить себе платную госпитализацию</li>
+                                   <li>Қажетті дезинфекция әдістері немесе мамандар жақын маңдағы мекемелерде жоқ</li>
+                                   <li>Тегін дезинфекцияны күту айларға және жылдарға созылуы мүмкін</li>
+                                   <li>Кейбіреулерге ақылы дезинфекцияны алу мүмкіндігі жоқ</li>
                               </ul>
                          </div>
+
                     </div>
                </div>
           </section>
@@ -176,209 +160,55 @@
                               <div data-aos="zoom-out">
                                    <div class="d-flex mt-5">
                                         <img src="pictures/tip.png" alt="tip-icon" width="28" height="28">
-                                        <p class="ps-2"><b>Только медицина</b></p>
+                                        <p class="ps-2"><b>Кәсіби дезинфекция</b></p>
                                    </div>
                                    <div class="">
-                                        <p>Просто лечите пациентов и получайте дополнительный доход, ничего лишнего,
-                                             никаких
-                                             продаж</p>
+                                        <p>Біз тек сертификатталған құралдарды қолданамыз, сіздің үйіңізді немесе
+                                             кеңсеңізді қауіпсіздікпен және тазалықпен қамтамасыз ету үшін.</p>
                                    </div>
                               </div>
                               <div data-aos="zoom-out">
                                    <div class="d-flex mt-5">
                                         <img src="pictures/tip.png" alt="tip-icon" width="28" height="28">
-                                        <p class="ps-2"><b>Быстрее чем писать</b></p>
+                                        <p class="ps-2"><b>Тиімділік кепілдігі</b></p>
                                    </div>
                                    <div class="main-text1">
-                                        <p>Вся информация о пациенте у Вас под рукой, заполнение заявки с ботом займет
-                                             не
-                                             более 3 минут</p>
+                                        <p>Біздің мамандар үнемі оқу курстарынан өтеді, жоғары сапалы қызмет көрсетуге
+                                             кепілдік беру үшін.</p>
                                    </div>
                               </div>
                          </div>
                          <div class="col-md-4 col-sm-12" data-aos="zoom-out">
                               <div class="d-flex">
                                    <img src="pictures/tip.png" alt="tip-icon" width="28" height="28">
-                                   <p class="ps-2"><b>Без подводных камней</b></p>
+                                   <p class="ps-2"><b>Қызметтердің мөлдірлігі</b></p>
                               </div>
                               <div class="main-text1">
-                                   <p>Количество госпитализаций по Вашим заявкам всегда можно посмотреть в интерфейсе
-                                        бота, все прозрачно</p>
+                                   <p>Өтініміңіздің мәртебесін тексеріп, орындалған жұмыстар туралы толық ақпарат алуға
+                                        әрқашан мүмкіндігіңіз бар.</p>
                               </div>
                               <div data-aos="zoom-in">
-                                   <img src="pictures/Layer 3.jpg" alt="layer_2" width="100%">
+                                   <img src="pictures/man.jpg" id="disinfection" alt="disinfection-image" width="100%">
                               </div>
                          </div>
                          <div class="col-md-4 mt-5 col-sm-12">
                               <div class="column2-row1 mt-5" data-aos="zoom-out">
                                    <div class="d-flex mt-5">
                                         <img src="pictures/tip.png" alt="tip-icon" width="28" height="28">
-                                        <p class="ps-2"><b>Вы всегда у руля</b></p>
+                                        <p class="ps-2"><b>Икемділік және қолайлылық</b></p>
                                    </div>
                                    <div class="">
-                                        <p>Вы сами решаете когда необходимо создать заявку или порекомендовать пациенту
-                                             сделать это самому</p>
+                                        <p>Сізге қолайлы уақыт пен күнді таңдап, дезинфекция жүргізуді жоспарлай аласыз.
+                                        </p>
                                    </div>
                               </div>
                               <div class="mt-5" data-aos="zoom-out">
                                    <div class="d-flex align-items-top">
                                         <img src="pictures/tip.png" alt="tip-icon" width="28" height="28">
-                                        <p class="ps-2"><b>Ограничений нет</b></p>
+                                        <p class="ps-2"><b>Бонус бағдарламасы</b></p>
                                    </div>
                                    <div class="">
-                                        <p>Для тех, кто хочет больше, есть партнерская программа, чтобы создать
-                                             пассивный доход.</p>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </section>
-          <section class="row justify-content-center mt-5" id="section4">
-               <div class="col-lg-7" data-aos="fade-up">
-                    <h1 class="text-center" style="color: #004A9B;"><b>ОСТАЛИСЬ ВОПРОСЫ ИЛИ ГОТОВЫ ОБСУДИТЬ ДЕТАЛИ?</b>
-                    </h1>
-               </div>
-               <div class="col-lg-12 col-md-12 col-sm-12 mt-4" data-aos="flip-left">
-                    <img class="img-fluid d-block mx-auto" src="pictures/Слой 2.png" alt="Image"
-                         style="max-width: 100%;">
-               </div>
-          </section>
-          <section class="row mt-5 align-items-center" id="section5">
-               <div class="col-lg-6 col-md-12" data-aos="fade-up-left">
-                    <img src="pictures/Ресурс 5 1.png" alt="section5-img" class="img-fluid" width="560" height="587">
-               </div>
-               <div class="col-lg-6 col-md-12">
-                    <div data-aos="fade-left">
-                         <h1 class="text-center" style="color: #004A9B;"><b>ГОСПИТАЛИЗАЦИЯ – ЭТО БЫСТРО!</b></h1>
-                    </div>
-                    <div data-aos="fade-left">
-                         <table class="table table-primary table-bordered mt-4" style="font-size: 12px;">
-                              <tr>
-                                   <th>Чтобы начать:</th>
-                                   <th>Действия</th>
-                                   <th>Дополнительная информация</th>
-                              </tr>
-                              <tr>
-                                   <td>Напишите боту в удобном для Вас мессенджере</td>
-                                   <td>Отправьте сообщение</td>
-                                   <td>Выберите мессенджер по вашему выбору (например, Telegram, WhatsApp)</td>
-                              </tr>
-                              <tr>
-                                   <td>Внесите имеющуюся информацию о пациенте</td>
-                                   <td>Заполните форму</td>
-                                   <td>Укажите имя, дату рождения и другие медицинские данные</td>
-                              </tr>
-                              <tr>
-                                   <td>Прикрепите файлы медицинского досье</td>
-                                   <td>Приложите файлы</td>
-                                   <td>Сканированные отчеты, рентгены, или другие документы</td>
-                              </tr>
-                              <tr>
-                                   <td>Подтверждение</td>
-                                   <td>Ожидайте ответа</td>
-                                   <td>Мы свяжемся с вами для подтверждения и обсуждения деталей</td>
-                              </tr>
-                         </table>
-                    </div>
-                    <div>
-                         <p class="text-center" data-aos="fade-left">Заполнение заявки займет не более 3-х минут</p>
-                         <br>
-                         <div class="text-center">
-                              <a href="https://web.telegram.org/k/" target="_blank"><button data-aos="zoom-in"
-                                        class="btn btn-primary"><b>Telegram</b></button></a>
-                              <a href="https://web.whatsapp.com" target="_blank"><button data-aos="zoom-in"
-                                        class="btn btn-success"><b>WhatsApp</b></button></a>
-                         </div>
-                    </div>
-               </div>
-          </section>
-          <section class="countdown-timer mb-5" style="border:#004A9B 3px outset;" data-aos="fade-up">
-               <p class="text-center w-50 mx-auto" style="font-size: 18px; line-height: 170%;">Успейте воспользоваться
-                    нашей акцией! До окончания скидки осталось совсем немного. Не упустите шанс
-                    получить товары по выгодным ценам. Спешите, время истекает! 🕒</p>
-               <div class="d-flex mx-auto justify-content-around">
-                    <div class="d-flex mx-auto justify-content-around">
-                         <div class="col-md-12 col-sm-6" data-aos="zoom-in">
-                              <img src="pictures/dicsount-icon.png" alt="discount-icon" class="img-fluid" width="150"
-                                   height="150">
-                         </div>
-                    </div>
-                    <div class="row mt-3">
-                         <div class="col-md countdown-item">
-                              <div class="countdown-value" id="days">00</div>
-                              <div class="countdown-label">День</div>
-                         </div>
-                         <div class="col-md countdown-item text-center">
-                              <div class="countdown-value">:</div>
-                         </div>
-                         <div class="col-md countdown-item">
-                              <div class="countdown-value" id="hours">00</div>
-                              <div class="countdown-label">Час</div>
-                         </div>
-                         <div class="col-md countdown-item text-center">
-                              <div class="countdown-value">:</div>
-                         </div>
-                         <div class="col-md countdown-item">
-                              <div class="countdown-value" id="minutes">00</div>
-                              <div class="countdown-label">Минут</div>
-                         </div>
-                         <div class="col-md countdown-item text-center">
-                              <div class="countdown-value">:</div>
-                         </div>
-                         <div class="col-md countdown-item">
-                              <div class="countdown-value" id="seconds">00</div>
-                              <div class="countdown-label">Секунд</div>
-                         </div>
-                    </div>
-                    <div class="d-flex mx-auto justify-content-around">
-                         <div class="col-md-12 col-sm-6" data-aos="zoom-in">
-                              <img src="pictures/hospital-icon.jpg" alt="hospital-icon" class="img-fluid" width="150"
-                                   height="150">
-                         </div>
-                    </div>
-               </div>
-          </section>
-
-          <section>
-               <div class="container mt-5">
-                    <h1 class="text-center mb-4" data-aos="fade-down">Try our Quizzes:</h1>
-                    <div class="row">
-                         <div class="col-md-4 mt-3" data-aos="fade-right">
-                              <div class="card">
-                                   <img src="pictures/health-icon.png" class="card-img-top" alt="Consultation">
-                                   <div class="card-body">
-                                        <h5 class="card-title">Health</h5>
-                                        <p class="card-text">
-                                             Explore your knowledge of general healt.</p>
-                                        <button class="btn btn-primary service-btn"
-                                             onclick="openQuizModal('Health', healthQuestions)">Take Quiz</button>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-md-4 mt-3" data-aos="fade-up">
-                              <div class="card">
-                                   <img src="pictures/mental-health-icon.png" class="card-img-top" alt="Treatment">
-                                   <div class="card-body">
-                                        <h5 class="card-title">Mental Health</h5>
-                                        <p class="card-text">Dive into the world of mental well-being with questions on
-                                             the definition of mental health.
-                                        </p>
-                                        <button class="btn btn-primary service-btn"
-                                             onclick="openQuizModal('Mental Health', mentalHealthQuestions)">Take
-                                             Quiz</button>
-                                   </div>
-                              </div>
-                         </div>
-                         <div class="col-md-4 mt-3" data-aos="fade-left">
-                              <div class="card">
-                                   <img src="pictures/anatomy-icon.png" class="card-img-top" alt="Anatomy">
-                                   <div class="card-body">
-                                        <h5 class="card-title">Anatomy</h5>
-                                        <p class="card-text">Discover the wonders of the human body with questions about
-                                             its structure and function.</p>
-                                        <button class="btn btn-primary service-btn"
-                                             onclick="openQuizModal('Anatomy', anatomyQuestions)">Take Quiz</button>
+                                        <p>Біз тұрақты клиенттерімізге тиімді шарттар ұсынамыз.</p>
                                    </div>
                               </div>
                          </div>
@@ -386,55 +216,38 @@
                </div>
           </section>
 
-          <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
-               <div class="modal-dialog modal-lg">
-                    
-                    <div class="modal-content">
-                         <div class="modal-header">
-                              <h5 class="modal-title" id="quizModalLabel">Quiz - <span id="quizTitle"></span></h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                   aria-label="Close"></button>
-                         </div>
-                         <div class="modal-body">
-                              <form id="quizForm">
-                                   <div class="mb-3">
-                                        <label for="userName" class="form-label">Enter your name:</label>
-                                        <input type="text" class="form-control" id="userName" required>
-                                   </div>
-                                   <p>Answer the following <span id="numberOfQuestions"></span> questions:</p>
-                                   <div id="questionsContainer"></div>
-                                   <button type="submit" class="btn btn-primary">Submit</button>
-                              </form>
-                              <div id="timer">Time: <span id="timeLeft"></span> seconds</div>
-                              <div id="correctAnswers"><span id="correctAnswersCount"></span></div>
-                         </div>
-                    </div>
-               </div>
-          </div>
           <section data-aos="zoom-in-up">
                <div>
                     <p></p>
-                    <h1 class="text-center mb-4" style="color: #004A9B;"><b>Наши клиники партнеры:</b></h1>
+                    <h1 class="text-center mb-4" style="color: #004A9B;">Біздің компания кадрларда</h1>
                </div>
+
+
                <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+
                     <div class="swiper-wrapper" id="swiper-wrapper-9108c187ee1526eca" aria-live="polite">
+
                          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9"
                               data-swiper-slide-index="0" style="width: 1046px; margin-right: 30px;"><img
-                                   src="pictures/clinic1.jpg" alt="clinic1"></div>
+                                   src="pictures\Снимок экрана 2024-07-30 085419.png" alt="clinic1"></div>
                          <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9"
                               data-swiper-slide-index="1" style="width: 1046px; margin-right: 30px;"><img
-                                   src="pictures/clinic2.jpeg" alt="clinic2"></div>
-                         <div class="swiper-slide" role="group" aria-label="3 / 9" data-swiper-slide-index="2"
-                              style="width: 1046px; margin-right: 30px;"><img src="pictures/clinic3.jpg" alt="clinic3">
-                         </div>
+                                   src="pictures\Снимок экрана 2024-07-30 085435.png" alt="clinic2"></div>
+
                          <div class="swiper-slide" role="group" aria-label="4 / 9" data-swiper-slide-index="3"
-                              style="width: 1046px; margin-right: 30px;"><img src="pictures/clinic4.jpg" alt="clinic4">
+                              style="width: 1046px; margin-right: 30px;"><img src="pictures\Снимок экрана 2024-07-30 085501.png" alt="clinic4">
                          </div>
+
                     </div>
+
                     <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
-                         aria-controls="swiper-wrapper-9108c187ee1526eca"></div>
+                         aria-controls="swiper-wrapper-9108c187ee1526eca">
+                    </div>
+
                     <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
-                         aria-controls="swiper-wrapper-9108c187ee1526eca"></div>
+                         aria-controls="swiper-wrapper-9108c187ee1526eca">
+                    </div>
+
                     <div
                          class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
                          <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
@@ -449,42 +262,16 @@
                               tabindex="0" role="button" aria-label="Go to slide 7"></span><span
                               class="swiper-pagination-bullet" tabindex="0" role="button"
                               aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0"
-                              role="button" aria-label="Go to slide 9"></span></div>
+                              role="button" aria-label="Go to slide 9"></span>
+                    </div>
+
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                </div>
           </section>
-          <hr class="border-1 mt-5 border-black my-5">
-          <h1 class="text-center mb-5" data-aos="fade-up"><b>Заявление о госпитализации</b></h1>
-          <form name="myForm" id="myForm" onsubmit="return validateForm();" data-aos="fade-up">
-               <label for="patientName">Имя Пациента: <span style="color: red;">*</span></label>
-               <input type="text" id="patientName" name="patientName">
-               <label for="patientAge">Возраст: <span style="color: red;">*</span></label>
-               <input type="number" id="patientAge" name="patientAge">
-               <label for="reasonForHospitalization">Причина госпитализации: <span style="color: red;">*</span></label>
-               <textarea id="reasonForHospitalization" name="reasonForHospitalization" rows="4"></textarea>
-               <label for="admissionDate">Дата поступления: <span style="color: red;">*</span></label>
-               <input type="date" id="admissionDate" name="admissionDate">
-               <label for="roomPreference">Тип комнаты:</label>
-               <select id="roomPreference" name="roomPreference">
-                    <option value="single">Одиночная комната</option>
-                    <option value="double">Двойная комната</option>
-                    <option value="ward">Палата</option>
-               </select>
-               <label for="contactNumber">Контактный номер: <span style="color: red;">*</span></label>
-               <input type="number" id="contactNumber" name="contactNumber">
-               <button class="submit-btn" type="submit">Отправить</button>
-          </form>
-          <div class="d-flex justify-content-center mx-auto mt-2">
-               <div id="errorMessage" class="error-message text-center p-2" style="font-size: 18px; display: none;">
-                    Заполните все обязательные поля
-                    <button id="closeError" class="close-button mx-auto m-1 mt-2"
-                         style="font-size: 16px;">Закрыть</button>
-               </div>
-          </div>
-          <hr class="border-1 border-black">
+
           <section class="faqs my-5 w-50 mx-auto" style="height: 530px;">
                <div class="faq-container">
-                    <h1 class="text-center mb-4" style="color: #000" data-aos="fade-down">Frequently Asked Questions:
+                    <h1 class="text-center mb-4" style="color: #000" data-aos="fade-down">FAQ:
                     </h1>
                     <div class="faq-accordion" id="faq-accordion" data-aos="fade-right">
                     </div>
@@ -510,38 +297,41 @@
           });
      </script>
 </body>
-<footer class="container py-5 text-center" id="footer" data-aos="fade-up">
+
+
+<footer class="container py-5 text-center bg-light" id="footer" data-aos="fade-up">
      <div class="row">
           <div class="col-md-4 mt-5">
-               <h3 class="text-left">Пишите/Звоните</h3>
+               <h3 class="text-left text-primary">Жазыңыз/Қоңырау шалыңыз</h3>
                <ul class="list-unstyled">
-                    <li class="mt-4"><img src="pictures/viber.png" alt="viber-icon" width="32" height="32">
-                         +7-903-905-56-65</li>
-                    <li class="mt-3"><img src="pictures/telegram.png" alt="telegram-icon" width="32" height="32">
-                         +7-903-905-56-65</li>
-                    <li class="mt-3"><img src="pictures/whatsup.png" alt="whatsapp-icon" width="32" height="32">
-                         +7-903-905-56-65</li>
+                    <li class="mt-4">
+                         <img src="pictures/viber.png" alt="viber-icon" width="32" height="32">
+                         <span class="ml-2">+7-776-888-00-98</span>
+                    </li>
+                    <li class="mt-3">
+                         <img src="pictures/whatsup.png" alt="whatsapp-icon" width="32" height="32">
+                         <span class="ml-2">+7-776-888-00-98</span>
+                    </li>
                </ul>
           </div>
           <div class="col-md-4 mt-5">
-               <h3 class="text-center">Больше информации</h3>
+               <h3 class="text-primary">Көбірек ақпарат</h3>
                <div class="d-flex justify-content-center gap-3 mt-4">
-                    <a href="https://vk.com/" target="_blank"><button type="button"
-                              class="btn btn-light border-black"><b>ВКонтакте</b></button></a>
-                    <a href="https://web.telegram.org/k/" target="_blank"><button type="button"
-                              class="btn btn-primary"><b>Телеграм</b></button></a>
+                    <a href="https://web.telegram.org/k/" target="_blank">
+                         <button type="button" class="btn btn-outline-primary"><b>Телеграм</b></button>
+                    </a>
                </div>
           </div>
           <div class="col-md-4 mt-5">
-               <h3>Реквизиты</h3>
+               <h3 class="text-left text-primary">Деректемелер</h3>
                <ul class="list-unstyled mt-4" style="line-height: 180%;">
-                    <a href="#"><li style="color: #004A9B;">ООО “Шердок”</li></a>
-                    <li>630107 г. Новосибирск</li>
-                    <li>ул. Троллейная 144, кв. 116</li>
-                    <li>ИНН: 5404319338</li>
-                    <li>ОГРН: 1235400032944</li>
-                    <li>КПП: 540401001</li>
+                    <li><a href="#" class="text-decoration-none" style="color: #004A9B;">ТОО ULIKE</a></li>
+                    <li>1001001 г. Астана</li>
+                    <li>ул. Улы Дала 47, кв. 89</li>
+                    <li>ОГРН: 00000001119919</li>
+                    <li>КПП: 329999911</li>
                </ul>
           </div>
+          <p>© 2024 ULIKE-пен бірге улайық - Профессиональная дезинфекция</p>
      </div>
 </footer>

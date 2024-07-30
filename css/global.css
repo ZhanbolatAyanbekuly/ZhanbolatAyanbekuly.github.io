@@ -1,6 +1,7 @@
 /* Global Styles */
 * {
-     font-family: Gotham Pro;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -8,4 +9,15 @@
 
 *::-webkit-scrollbar {
      width: 0;
+}
+
+#logo {
+     width: 60px;
+     height: 60px;
+     border-radius: 16px;
+
+}
+
+#quiz {
+     width: 400px;
 }
